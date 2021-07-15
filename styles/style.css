@@ -1,0 +1,107 @@
+body{
+    font-family: 'Merriweather', serif;
+}
+  header{
+      position: absolute;
+      background-color: rgb(22,65,194);
+      width: 1450px;
+      height: 677px;
+      top: 0;
+      left: 35px;
+      right: 0;
+  }
+/* banner-stylesheet     */
+.banner-pic{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 100px;
+}
+.banner-pic img{
+    height: 428px;
+    width: 388px;margin-left: 250px;
+    margin-right: 80px;
+}
+.banner-pic .banner-headline{
+    color: white;
+    font-size: 40px;
+    margin-left: 200px;
+}
+span{
+    padding: 10px;
+}
+.banner-headline p{
+    color: rgb(246,253,232);
+    background-color: palevioletred;
+    border: 1px solid rbga(128,255,0,0);
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    font-size: 24px;
+}
+.banner-headline p:hover{
+    background-color: rgb(85, 7, 33);
+    border-radius: 5PX;
+    height: 60PX;
+    width: 210PX;
+}
+/* player stylesheet */
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 2px;
+    margin-top: 747px;
+    margin-left: 130px;
+}
+.all-players{
+    width: 300px;
+    height: 474px;
+}
+.players{
+    width: 300px;
+    height: 474px;
+    border: 2px solid whitesmoke;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 10px rgb(170, 167, 167);
+}
+.player{
+    width: 300px;
+    height: 256px;
+}
+.player img{
+    width: 300px;
+    height: 256px;
+   padding-top: 10px;
+   /* padding-left: 10px; */
+   padding-right: 10px;
+}
+.player h3{
+    font-weight: 700;
+    text-align: center;
+}
+/* footer stylesheet */
+.logo{
+    margin-top: 7%;
+    margin-left: 20%;
+    /* height: 50px;
+    width: 20px; */
+    size: 2px;
+}
+.icon{
+    text-align: center;
+    justify-content: center;
+    margin-top: 0px;
+    /* padding: 10px; */
+    word-spacing: 15px;
+    
+
+}
+.icon a{
+    border: 1px solid rgb(196, 190, 190);
+    color:gray;
+    border-radius: 100px;
+    size: 20%;
+}
+.footer-bottom{
+    text-align: center;
+    justify-content: center;
+}
